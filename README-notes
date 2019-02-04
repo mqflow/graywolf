@@ -1,0 +1,28 @@
+
+README-notes
+2019-2-3
+
+
+Origin
+========
+
+https://github.com/rubund/graywolf
+
+
+Build
+=======
+
+Extra packages installed
+  [1] cmake
+  [2] gcc-c++
+  [3] gsl gsl-devel
+
+Build commands
+
+  mkdir build
+  cd build
+  cmake -DCMAKE_INSTALL_PREFIX:PATH=<prefix-path> ..
+  make
+  make install
+
+
